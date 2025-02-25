@@ -1,12 +1,11 @@
 *{
-    border: solid 1px black;
     font-family: "Quicksand", serif;
 }
 
 .flex-container-column{
     display: flex;
     flex-direction: column;
-    background-color: violet;
+    background-color: coral;
     flex-wrap: wrap;
     margin: 1em;
     min-width: 20em;
