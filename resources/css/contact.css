@@ -1,0 +1,20 @@
+.section-titles{
+    text-align: center;
+    
+}
+
+#paragraph{
+    background-color: yellow;
+    max-width: 40em;
+    min-width: 20em;
+    margin: 0.5em;
+}
+
+#bio{
+    justify-content: center;
+}
+
+#profile-picture{
+    margin:0.5em;
+    height: 10em;
+}

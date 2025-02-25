@@ -1,0 +1,54 @@
+.heading-title{
+    height: 10em;
+    width: 100%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    background-image: url("/Users/totterapia/CODING PROJECTS/portfolio project/resources/images/title-image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.heading-title h1{
+    align-self: center;
+    font-size: 3em;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin: 1em;
+    padding: 0.5em;
+    justify-content: center;
+
+    height: 20em;
+    flex-wrap: wrap;
+
+}
+
+.project-container img{
+    width: 100%;
+    min-width: 10em;
+    max-width: 20em;
+    height: 10em;
+}
+
+.section-titles{
+    text-align: center;
+    
+}
+
+.footer-container{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#paragraph{
+    text-align: left;
+    margin: 0.5em
+    
+}

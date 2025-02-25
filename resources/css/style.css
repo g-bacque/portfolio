@@ -1,0 +1,53 @@
+*{
+    border: solid 1px black;
+    font-family: "Quicksand", serif;
+}
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    flex-wrap: wrap;
+    margin: 1em;
+    min-width: 20em;
+    align-content: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    margin: 1em;
+    flex-wrap: wrap;
+    min-width: 20em;
+}
+
+.flex-container img{
+    background-color: green;
+
+}
+
+#logo{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    height: 5em;
+}
+
+.flex-container nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    background-color: green;
+}
+
+.flex-container nav ul li{
+    padding: 1em 2em;
+    margin: 0 0.5em;
+    background-color: aqua;
+
+}
