@@ -4,7 +4,7 @@
 }
 
 #paragraph{
-    background-color: yellow;
+    /*background-color: yellow;*/
     max-width: 40em;
     min-width: 20em;
     margin: 0.5em;
@@ -17,4 +17,11 @@
 #profile-picture{
     margin:0.5em;
     height: 10em;
+}
+
+.section-titles{
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 0.5em;
+    
 }

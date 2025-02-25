@@ -2,10 +2,14 @@
     font-family: "Quicksand", serif;
 }
 
+body{
+background-color: whitesmoke;
+}
+
 .flex-container-column{
     display: flex;
     flex-direction: column;
-    background-color: coral;
+    /*background-color: coral;*/
     flex-wrap: wrap;
     margin: 1em;
     min-width: 20em;
@@ -16,14 +20,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
+    /*background-color: red;*/
     margin: 1em;
     flex-wrap: wrap;
     min-width: 20em;
 }
 
 .flex-container img{
-    background-color: green;
+    /*background-color: green;*/
 
 }
 
@@ -41,17 +45,37 @@
     margin-top: 1em;
     margin-bottom: 1em;
     margin-right: 1em;
-    background-color: green;
+    list-style-type: none;
+    /*background-color: green;*/
+}
+
+a{
+    text-decoration: none;
 }
 
 .flex-container nav ul li{
     padding: 1em 2em;
     margin: 0 0.5em;
-    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    /*background-color: aqua;*/
+
+}
+
+.flex-container nav ul li:hover {
+    color: blue;
 
 }
 
 .footer-img{
     height: 2em;
     
+}
+
+.footer-container{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    justify-content: space-around;
 }
